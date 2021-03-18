@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 50px;
+    font-family: 'Syne Mono', monospace;
+    font-size: 40px;
+}
+
+#screen {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: 'Syne Mono', monospace;
+    text-align: left;
+    transition: 0.5s;
+}
